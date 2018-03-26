@@ -54,17 +54,22 @@ body {
   }
     .tagline-h1 {
       font-size: 40px;
+      margin: 0 auto;
     }
-    /* Как сблизить эти две строки ? */
     .tagline-h2 {
       margin: 0 auto;
-      margin-left: 160px;
       font-size: 15px;
+      position: relative;
+      padding-top: 15px;
+      padding-left: 180px;
+
     }
+    /* ПРОПИСАТЬ ЗДЕСЬ псевдоэллементы для tagline */
 
 /* Main */
 .main {
   background: #a2ca28;
+  margin: 0 auto;
 }
 
   /* Benefits */
@@ -85,12 +90,19 @@ body {
   }
   .benefit-img {
     margin: auto;
+
   }
   .benefit-title {
-    font-size: 24px
+    font-size: 24px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
   }
   .benefit-text {
     font-size: 14px;
+    position: relative;
+    padding-bottom: 30px;
   }
   .benefit-url {
     color: inherit;
@@ -102,8 +114,6 @@ body {
   .container {
     width: 1150px;
     margin: 0 auto;
-    padding-left: 210px;
-    padding-right: 210px;
   }
   .container-row {
     display: inline-flex;
@@ -111,7 +121,7 @@ body {
     margin: 0 auto;
   }
   .container-row-1 {
-
+    margin: 0 auto;
   }
   .container-row-2 {
     margin: 0 auto;
@@ -124,12 +134,16 @@ body {
     padding-bottom:10px;
     padding-left:10px;
     padding-right:10px;
+    margin: 0 auto;
   }
     .container-h3{
-      padding-top: 55px;
+      /* padding-top: 55px; */
       color: #fd634e;
       font-size: 14px;
       text-transform: uppercase;
+      position: relative;
+      padding-top: 55px;
+      padding-bottom: 16px;
     }
     .container-h2{
       color: #a2ca28;
@@ -138,10 +152,18 @@ body {
     }
     .container-bulb{
       height: 23px;
+      position: relative;
+      padding-top: 23px;
+      padding-bottom: 23px;
     }
     .container-text{
       color: #737b80;
       font-size: 14px;
+      position: relative;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 18px;
+
     }
     .container-url{
       color: #a2ca28;
@@ -150,28 +172,47 @@ body {
     }
     .container-img{
       height: 394px;
+      margin: 0 auto;
     }
 
 /* Footer */
 .footer {
   background: #0d1119;
+  height: 154px;
 }
 .footer-container {
   display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 35px;
 }
 .form {
 
 }
 .input {
   font-size: 14px;
+  /* padding: 10px; */
+  width: 200px;
+  height: 35px;
+  border-radius: 3px;
 }
 .btn {
+  color: #ffffff;
+  background: #a2ca28;
+  width: 180px;
   font-size: 15px;
+  /* padding: 12px; */
+  border-radius: 3px;
+  border: 0px;
+  height: 35px;
+
 }
 
 
   /* Social Networks */
   .social {
+    display: flex;
   }
   .social-ul {
     display: flex;
