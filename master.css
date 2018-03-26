@@ -1,0 +1,110 @@
+/* Body */
+body {
+
+}
+
+
+/* Header */
+.header {
+  background-image: url('./images/background.jpg');
+}
+  .header-top {
+    
+  }
+  .header-logo {
+
+  }
+
+  /* Navigation */
+  .nav-menu {
+
+  }
+  .nav-items {
+
+  }
+  .nav-item {
+
+  }
+  .nav-link {
+
+  }
+
+  /* Tagline */
+  .tagline-h1 {
+
+  }
+
+  .tagline-h2 {
+
+  }
+
+/* Main */
+.main {
+  background: #green;
+}
+
+  /* Benefits */
+  .benefits {
+
+  }
+  .benefit-item {
+
+  }
+  .benefit-img {
+
+  }
+  .benefit-title {
+
+  }
+  .benefit-text {
+
+  }
+  .benefit-url {
+
+  }
+
+  /* Container */
+  .container {
+
+  }
+  .container-row {
+
+  }
+  .container-row-1 {
+
+  }
+  .container-row-2 {
+
+  }
+
+/* Footer */
+.footer {
+
+}
+.footer-container {
+
+}
+.form {
+
+}
+.input {
+
+}
+.btn {
+
+}
+
+
+  /* Social Networks */
+  .social {
+
+  }
+  .social-ul {
+
+  }
+  .social-link {
+
+  }
+  .social-img {
+
+  }
