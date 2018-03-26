@@ -154,28 +154,29 @@ body {
 
 /* Footer */
 .footer {
-
+  background: #0d1119;
 }
 .footer-container {
-
+  display: flex;
 }
 .form {
 
 }
 .input {
-
+  font-size: 14px;
 }
 .btn {
-
+  font-size: 15px;
 }
 
 
   /* Social Networks */
   .social {
-
   }
   .social-ul {
-
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
   }
   .social-link {
 
