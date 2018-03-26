@@ -7,36 +7,59 @@ body {
 /* Header */
 .header {
   background-image: url('./images/background.jpg');
+  height: 890px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   .header-top {
-    
+
   }
   .header-logo {
-
   }
 
   /* Navigation */
   .nav-menu {
-
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
-  .nav-items {
-
+  .nav-items { /* <ul> */
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
   }
   .nav-item {
-
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    /* width: 25%; */
   }
   .nav-link {
-
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav-current{
+    color: gray;
   }
 
   /* Tagline */
-  .tagline-h1 {
-
+  .tagline {
+      margin-top: 600px;
+      margin-left: 115px;
+      color: #ffffff;
+      text-transform: uppercase;
   }
-
-  .tagline-h2 {
-
-  }
+    .tagline-h1 {
+      font-size: 40px;
+    }
+    /* Как сблизить эти две строки ? */
+    .tagline-h2 {
+      margin-left: 160px;
+      font-size: 15px;
+    }
 
 /* Main */
 .main {
