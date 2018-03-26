@@ -42,12 +42,12 @@ body {
     text-decoration: none;
   }
   .nav-current{
-    color: gray;
+    text-decoration: underline;
   }
 
   /* Tagline */
   .tagline {
-      margin-top: 600px;
+      margin-top: 580px;
       margin-left: 115px;
       color: #ffffff;
       text-transform: uppercase;
@@ -70,6 +70,7 @@ body {
 .main {
   background: #a2ca28;
   margin: 0 auto;
+  margin-bottom: -3px;
 }
 
   /* Benefits */
@@ -188,24 +189,25 @@ body {
   padding-bottom: 35px;
 }
 .form {
-
+  display: flex;
 }
 .input {
+  margin-right: 6px;
   font-size: 14px;
-  /* padding: 10px; */
-  width: 200px;
-  height: 35px;
   border-radius: 3px;
+  padding-left: 20px;
+  padding: 10px;
+  border: 0;
+  width: 194px;
 }
 .btn {
+  width: 174px;
   color: #ffffff;
   background: #a2ca28;
-  width: 180px;
   font-size: 15px;
-  /* padding: 12px; */
+  padding: 10px;
   border-radius: 3px;
   border: 0px;
-  height: 35px;
 
 }
 
@@ -214,14 +216,18 @@ body {
   .social {
     display: flex;
   }
-  .social-ul {
+  .social-ul { /* <ul> */
     display: flex;
     list-style: none;
     justify-content: space-between;
+
+  }
+  .social-item{
+    margin-left: 20px;
   }
   .social-link {
 
   }
   .social-img {
-
+    height: 40px; width: 40px;
   }
