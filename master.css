@@ -1,0 +1,233 @@
+/* Body */
+body {
+
+}
+
+
+/* Header */
+.header {
+  background-image: url('./images/background.jpg');
+  height: 890px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .header-top {
+
+  }
+  .header-logo {
+  }
+
+  /* Navigation */
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nav-items { /* <ul> */
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+  }
+  .nav-item {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    /* width: 25%; */
+  }
+  .nav-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav-current{
+    text-decoration: underline;
+  }
+
+  /* Tagline */
+  .tagline {
+      margin-top: 580px;
+      margin-left: 115px;
+      color: #ffffff;
+      text-transform: uppercase;
+  }
+    .tagline-h1 {
+      font-size: 40px;
+      margin: 0 auto;
+    }
+    .tagline-h2 {
+      margin: 0 auto;
+      font-size: 15px;
+      position: relative;
+      padding-top: 15px;
+      padding-left: 180px;
+
+    }
+    /* ПРОПИСАТЬ ЗДЕСЬ псевдоэллементы для tagline */
+
+/* Main */
+.main {
+  background: #a2ca28;
+  margin: 0 auto;
+  margin-bottom: -3px;
+}
+
+  /* Benefits */
+  .benefits {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px;
+    list-style: none;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    padding-left: 210px;
+    padding-right: 210px;
+    color: #ffffff;
+  }
+  .benefit-item {
+    padding-right: 40px;
+  }
+  .benefit-img {
+    margin: auto;
+
+  }
+  .benefit-title {
+    font-size: 24px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  .benefit-text {
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .benefit-url {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  /* Container */
+  .container {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .container-row {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .container-row-1 {
+    margin: 0 auto;
+  }
+  .container-row-2 {
+    margin: 0 auto;
+  }
+  .container-block{
+    background: #ffffff;
+    text-align: center;
+    width: 350px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 0 auto;
+  }
+    .container-h3{
+      /* padding-top: 55px; */
+      color: #fd634e;
+      font-size: 14px;
+      text-transform: uppercase;
+      position: relative;
+      padding-top: 55px;
+      padding-bottom: 16px;
+    }
+    .container-h2{
+      color: #a2ca28;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
+    .container-bulb{
+      height: 23px;
+      position: relative;
+      padding-top: 23px;
+      padding-bottom: 23px;
+    }
+    .container-text{
+      color: #737b80;
+      font-size: 14px;
+      position: relative;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 18px;
+
+    }
+    .container-url{
+      color: #a2ca28;
+      font-size: 14px;
+      padding-bottom: 100px;
+    }
+    .container-img{
+      height: 394px;
+      margin: 0 auto;
+    }
+
+/* Footer */
+.footer {
+  background: #0d1119;
+  height: 154px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+.form {
+  display: flex;
+}
+.input {
+  margin-right: 6px;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding: 10px;
+  border: 0;
+  width: 194px;
+}
+.btn {
+  width: 174px;
+  color: #ffffff;
+  background: #a2ca28;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0px;
+
+}
+
+
+  /* Social Networks */
+  .social {
+    display: flex;
+  }
+  .social-ul { /* <ul> */
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+  }
+  .social-item{
+    margin-left: 20px;
+  }
+  .social-link {
+
+  }
+  .social-img {
+    height: 40px; width: 40px;
+  }
