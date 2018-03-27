@@ -1,5 +1,9 @@
 /* Body */
-html {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -120,6 +124,7 @@ html {
     display: inline-flex;
     justify-content: space-around;
     margin: 0 auto;
+    height: 394px;
   }
   .container-row-1 {
     margin: 0 auto;
@@ -173,6 +178,7 @@ html {
     }
     .container-img{
       height: 394px;
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -230,4 +236,45 @@ html {
   }
   .social-img {
     height: 40px; width: 40px;
+  }
+
+  /* Pseudo-ellement! */
+  .img-div-hover-h3{
+    font-size: 14;
+    color: #fd634e;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .img-div-hover-h2{
+    font-size: 35px;
+    color: #a2ca28;
+    text-transform: uppercase;
+    position: relative;
+    padding: 15px;
+  }
+
+  .img-div{
+    position: relative;
+  }
+  .img-div::before{
+    display: block;
+    width: 784px;
+    height: 394px;
+    background: rgba(42,99,117, 0.5);
+    position: absolute;
+  }
+
+  .img-div-hover{
+    display: none;
+    position: absolute;
+    top: 153px;
+    text-align: center;
+    width: 794px;
+  }
+  .img-div:hover .img-div-hover{
+    display: block;
+  }
+
+  .img-div:hover::before{
+    content: '';
   }
