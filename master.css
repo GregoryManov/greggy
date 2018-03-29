@@ -27,11 +27,11 @@
 
 /* Body */
 *{
-  width: 1600px;
   margin: 0px;
   padding: 0px;
 }
 body {
+  width: 1600px;
   position: relative;
   font-family: 'Open Sans', sans-serif;
 }
