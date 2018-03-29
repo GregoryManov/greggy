@@ -115,46 +115,41 @@ body {
       content: '/';
       color: #fd634e;
     }
-    /* ПРОПИСАТЬ ЗДЕСЬ псевдоэллементы для tagline */
 
 /* Main */
 .main {
   background: #a2ca28;
+  position: relative;
 }
 
   /* Benefits */
   .benefits {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 800px;
+    position: absolute;
+    top: 110px;
+    left: 210px;
+
     list-style: none;
-    padding-top: 110px;
-    padding-bottom: 120px;
-    padding-left: 210px;
-    padding-right: 210px;
     color: #ffffff;
   }
   .benefit-item {
-    padding-right: 40px;
+    width: 280px;
+    height: 240px;
   }
   .benefit-img {
-    margin: auto;
+    margin-bottom: 20px;
+    height: 40px;
 
   }
   .benefit-title {
     font-size: 24px;
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
+    margin-bottom: 30px;
   }
   .benefit-text {
     font-size: 14px;
-    position: relative;
-    padding-bottom: 30px;
     font-family: 'ProximaNova-Reg', sans-serif;
     font-weight: 400;
+    line-height: 23.98px;
   }
   .benefit-url {
     color: inherit;
@@ -162,6 +157,8 @@ body {
     font-size: 14px;
     font-family: 'ProximaNova-Reg', sans-serif;
     font-weight: 400;
+    position: absolute;
+    bottom: 0;
   }
   .benefit-url::after{
     content: ' →';
