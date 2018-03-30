@@ -1,3 +1,16 @@
+/* CSS Animation */
+
+@keyframes iconsAnimation {
+  0% {
+    width:40px;
+    height:40px;
+  }
+  100% {
+    width:60px;
+    height:60px;
+  }
+}
+
 /* Fonts */
 @font-face {
   src: url("./fonts/Myraid/MyriadPro-Regular.otf");
@@ -155,7 +168,7 @@ body {
   .benefit-url {
     color: inherit;
     text-decoration: none;
-    font-size: 14px;
+      font-size: 14px;
     font-family: 'ProximaNova-Reg', sans-serif;
     font-weight: 400;
     position: absolute;
@@ -183,28 +196,21 @@ body {
   }
   .container-block{
     background: #ffffff;
+    text-align: center;
     width: 350px;
     height: 366px;
     padding: 15px;
     position: relative;
   }
-    .block-elements{
-      position: absolute;
-      top: 55px;
 
-      text-align: center;
-    }
     .container-h3{
-      /* padding-top: 55px; */
       color: #fd634e;
       font-size: 14px;
       text-transform: uppercase;
-      /*position: relative;
-      padding-top: 55px;
-      padding-bottom: 16px;*/
       font-family: 'Montserrat-Regular';
       font-weight: 300;
-      padding: 15px;
+      margin-top: 55px;
+      padding-bottom: 15px;
     }
     .container-h2{
       color: #a2ca28;
@@ -223,16 +229,16 @@ body {
     .container-text{
       color: #737b80;
       font-size: 14px;
-      position: relative;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-bottom: 18px;
-
+      line-height: 1.5;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-bottom: 15px;
     }
+
     .container-url{
       color: #a2ca28;
       font-size: 14px;
-      padding-bottom: 100px;
+      margin-bottom: 100px;
     }
 
   /* Pseudo-ellement! */
